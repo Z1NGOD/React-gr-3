@@ -1,42 +1,117 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  gap: 40px;
+  background-color: darkslateblue;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  color: aliceblue;
+  transition: color 150ms ease-in;
+  padding: 16px 0;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  color: lightskyblue;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation-list {
+  display: flex;
+  gap: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navigation-link {
+  color: aliceblue;
+  transition: color 150ms ease-in;
+  padding: 16px 0;
 }
 
-.card {
-  padding: 2em;
+.navigation-link:hover {
+  color: lightskyblue;
 }
 
-.read-the-docs {
-  color: #888;
+.section-hero {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  width: 300px;
+  text-align: center;
+  color: darkslateblue;
+}
+
+.hero-title {
+  margin: 30px 0;
+  font-size: 100px;
+  color: darkslateblue;
+}
+
+.hero-button {
+  font-size: 20px;
+  width: 154px;
+  height: 34px;
+  border: 0;
+  border-radius: 15px;
+  color: aliceblue;
+  background-color: lightskyblue;
+  transition: background-color 150ms ease-in, box-shadow 60ms ease-in;
+}
+
+.hero-button:hover,
+.hero-button:active {
+  background-color: darkslateblue;
+}
+
+.hero-button:active {
+  box-shadow: 3px 0px 73px -21px rgba(0, 0, 0, 1) inset;
+}
+
+.section-about {
+  background-color: darkslateblue;
+}
+
+.about-title {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 36px;
+  color: aliceblue;
+}
+
+.about-text {
+  text-align: center;
+  color: aliceblue;
+}
+
+.contacts {
+  height: 100px;
+  background-color: aliceblue;
+}
+
+.addres {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 300px;
+}
+
+.contacts-list-item {
+  color: darkslateblue;
+  font-size: 20px;
+}
+
+.contacts-title {
+  color: darkslateblue;
 }
