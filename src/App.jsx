@@ -21,7 +21,8 @@ function App() {
       </header>
       <main>
         <section id='hero' className="section-hero section">
-          <p className='hero-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi inventore ipsum perferendis suscipit.</p>
+          <p className='hero-text'>Yaroslav Borovskyi 113863
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi inventore ipsum perferendis suscipit.</p>
           <h1 className='hero-title'>Hero section</h1>
           <button className='hero-button' type='button'>Button</button>
         </section>
